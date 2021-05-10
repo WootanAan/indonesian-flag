@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #202020
+}
+
+#canvas {
+  height: 100vh;
+  width: 100vmin;
+}
+
+#flag {
+  width: 80vmin;
+  height: 45vmin;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 30px rgba(255,255,255,0.4)
+}
+
+#red {
+  height: 50%;
+  width: 100%;
+  background: red;
+}
+
+#white {
+  height: 50%;
+  width: 100%;
+  background: #fff;
+}
